@@ -43,6 +43,5 @@ function test() {
   });
   mas_new.forEach(function(element, nomer) {
     ss.getRange(nomer + 1, 3).setValue(element);
-  });
-                       
+  });                   
 }
